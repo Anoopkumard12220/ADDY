@@ -1,5 +1,4 @@
-// Intro cleanup: CSS timeline runs the show; this only removes the overlay.
-// Failsafe timeout means it can never get stuck.
+// ᥫ᭡ 𝘼𝘿𝘿𝙔
 (function () {
   var intro = document.getElementById('intro');
   var done = function () { if (intro && intro.parentNode) intro.parentNode.removeChild(intro); intro = null; };
